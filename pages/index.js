@@ -6,14 +6,18 @@ export default function Home() {
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle}</title>
+        <title>{"Izzy's Imaginarium"}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+        <p>Hello, I’m <strong>Izzy</strong>. I’m a programmer and devops engineer.</p>
+	<ul>
+	 <li>
+          <a href="https://www.linkedin.com/in/isabel-fisher-9374124b">Linkedin</a>
+	 </li>
+	 <li>
+	  <a href="https://github.com/IzzyFisher">Github</a>
+	 </li>
+	</ul>
       </section>
     </Layout>
   );
